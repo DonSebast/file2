@@ -1,0 +1,267 @@
+git config --global user.name "dons"
+
+git config --global user.email "donsebastian@emsyne.com"
+$ $ git remort add orgin https://github.com/DonSebast/Try1.git
+
+git remote add origin https://github.com/DonSebast/Try1.git
+
+
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ git config --global user.name "dons"
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ git config --global user.email "donsebastian@emsyne.com"
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ ls
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ ls -1
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ ls -l
+total 0
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons
+$ git init
+Initialized empty Git repository in C:/Users/Don/dons/.git/
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ pwd
+/c/Users/Don/dons
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git remort add orgin https://github.com/DonSebast/Try1.git
+git: 'remort' is not a git command. See 'git --help'.
+
+The most similar commands are
+        remote
+        revert
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ $ git remort add orgin https://github.com/DonSebast/Try1.git
+bash: $: command not found
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ $ git remort add orgin https://github.com/DonSebast/Try1.git
+bash: $: command not found
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git remort add orgin https://github.com/DonSebast/Try1.git
+git: 'remort' is not a git command. See 'git --help'.
+
+The most similar commands are
+        remote
+        revert
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git remote add origin https://github.com/DonSebast/Try1.git
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ ls -l
+total 0
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ notepad file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git add .
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ notepad file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git add .
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git commit -m "my first commit"
+[master (root-commit) 4b7ae78] my first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ ^C
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git log
+commit 4b7ae785c124ab64607ed619c65f6193c8b7ba8f (HEAD -> master)
+Author: dons <donsebastian@emsyne.com>
+Date:   Tue Sep 13 12:58:15 2022 +0530
+
+    my first commit
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ ls -alrt
+total 13
+drwxr-xr-x 1 Don 197121 0 Sep 13 12:54 ./
+-rw-r--r-- 1 Don 197121 9 Sep 13 12:56 file1.txt
+drwxr-xr-x 1 Don 197121 0 Sep 13 12:58 .git/
+drwxr-xr-x 1 Don 197121 0 Sep 13 14:23 ../
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$  git remort add master
+git: 'remort' is not a git command. See 'git --help'.
+
+The most similar commands are
+        remote
+        revert
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (master)
+$ git branch -M main
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 217.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DonSebast/Try1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ ls-l
+bash: ls-l: command not found
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ ls -l
+total 1
+-rw-r--r-- 1 Don 197121 9 Sep 13 12:56 file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ notepad file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git diff file1.txt
+diff --git a/file1.txt b/file1.txt
+index 4be3c45..4968768 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1 @@
+-test test
+\ No newline at end of file
++test test test
+\ No newline at end of file
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git commit -m "my second commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git log
+commit 4b7ae785c124ab64607ed619c65f6193c8b7ba8f (HEAD -> main, origin/main)
+Author: dons <donsebastian@emsyne.com>
+Date:   Tue Sep 13 12:58:15 2022 +0530
+
+    my first commit
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ ls-l
+bash: ls-l: command not found
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ ls -ls
+total 1
+1 -rw-r--r-- 1 Don 197121 14 Sep 13 14:38 file1.txt
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git log
+commit 4b7ae785c124ab64607ed619c65f6193c8b7ba8f (HEAD -> main, origin/main)
+Author: dons <donsebastian@emsyne.com>
+Date:   Tue Sep 13 12:58:15 2022 +0530
+
+    my first commit
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git add .
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git commit -m "my second commit"
+[main 9e39939] my second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Don@EMTECH-LAP-57 MINGW64 ~/dons (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 247 bytes | 247.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DonSebast/Try1.git
+   4b7ae78..9e39939  main -> main
